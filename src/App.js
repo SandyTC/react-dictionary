@@ -6,13 +6,14 @@ import "./App.css";
 export default function App() {
   return (
     <div className="App">
+      <img src={logo} className="App-logo" alt="logo" />
       <div className=" container main-content">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-        </header>
+        <header className="App-header"></header>
         <main>
           <Dictionary />
         </main>
+      </div>
+      <div>
         <footer>
           This project was coded by{" "}
           <a href="https://github.com/SandyTC">Sandy Trebilcock</a>, is
