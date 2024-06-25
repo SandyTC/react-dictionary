@@ -1,16 +1,6 @@
-.App-header {
-  margin: 30px;
-}
-
-.App-logo {
-  max-width: 100px;
-  display: block;
-  margin: 0 auto;
-}
-
 body {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
-  background-color: #d3e3fd;
+  background: #d3e3fd;
 }
 
 .App {
@@ -30,4 +20,14 @@ body {
   padding: 15px;
   border-radius: 10px;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.App-header {
+  margin: 30px;
+}
+
+.App-logo {
+  max-width: 100px;
+  display: block;
+  margin: 0 auto;
 }

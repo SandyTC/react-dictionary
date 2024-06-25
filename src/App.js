@@ -1,14 +1,18 @@
 import React from "react";
-import "./App.css";
 import logo from "./logo.png";
+import Dictionary from "./Dictionary";
+import "./App.css";
 
 export default function App() {
   return (
     <div className="App">
-      <div className="main-content">
+      <div className=" container main-content">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
         </header>
+        <main>
+          <Dictionary />
+        </main>
         <footer>
           This project was coded by{" "}
           <a href="https://github.com/SandyTC">Sandy Trebilcock</a>, is
