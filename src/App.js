@@ -8,9 +8,10 @@ export default function App() {
     <div className="App">
       <img src={logo} className="App-logo" alt="logo" />
       <div className=" container main-content">
-        <header className="App-header"></header>
         <main>
-          <h2 className="text-center">Dictionary App</h2>
+          <div className="title">
+            <h2 className="text-center">Sandy's React Dictionary App</h2>
+          </div>
           <Dictionary />
         </main>
       </div>
